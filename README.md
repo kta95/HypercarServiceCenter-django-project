@@ -1,1 +1,1 @@
-# HyperNews Website with Django
+# HyperCar Website with Django
