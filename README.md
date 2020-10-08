@@ -1,1 +1,0 @@
-# HyperCar Website with Django
