@@ -1,0 +1,12 @@
+{% extends 'tickets/layout.html' %}
+
+{% block body %}
+<h2> Menu </h2>
+<ul>
+  {% for menu, link in menus.items %}
+  <li>
+    <a href="/get_ticket/{{ menu }}">{{ link }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
